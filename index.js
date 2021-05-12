@@ -4,6 +4,7 @@ const { User } = require('./user.model');
 const { URI } = process.env;
 const express = require('express');
 const app = express();
+const PORT = process.env.PORT || 3000;
 
 require('./middleware')(app);
 
@@ -120,8 +121,8 @@ db.once('open', (_) => {
     res.send(err);
   });
 
-  app.listen(3000, () => {
-    console.log('Server running on Port 3000!');
+  app.listen(PORT, () => {
+    console.log(`Server running on Port ${PORT}!`);
   });
 });
 
