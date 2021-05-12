@@ -1,7 +1,7 @@
 # ZURI-CRUD - CRUD App with Database
 
 ### live
-https://zuri-3.herokuapp.com
+https://zuri-crud-app-demo.herokuapp.com
 
 ## Documentation on the routes
 
