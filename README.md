@@ -14,8 +14,6 @@ This is the home route of the api and displays a welcome message.
 #### <code> POST "/add-user" </code>
 send a POST request to <code> /add-user </code> route of the api to create a new user by send the following payloads
 
-**:id should be the user's id**
-
 - name
 - email
 - country
